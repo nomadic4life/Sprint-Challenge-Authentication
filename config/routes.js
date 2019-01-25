@@ -28,8 +28,6 @@ function register(req, res) {
 		.catch(err => res.status(500).json({errorMessage: err}));
 }
 
-
-
 function login(req, res) {
   const { username, password } = req.body;
 
